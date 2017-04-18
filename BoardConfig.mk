@@ -23,7 +23,7 @@
 #
 
 # Inherit from sdm660-common
--include device/xiaomi/sdm660-common/BoardConfigCommon.mk
+include device/xiaomi/sdm660-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/platina
 
@@ -56,4 +56,4 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 VENDOR_SECURITY_PATCH := 2020-08-01
 
 # Inherit the proprietary files
--include vendor/xiaomi/platina/BoardConfigVendor.mk
+include vendor/xiaomi/platina/BoardConfigVendor.mk
