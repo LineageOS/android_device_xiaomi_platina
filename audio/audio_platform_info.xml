@@ -106,6 +106,7 @@
         <device name="SND_DEVICE_IN_HDMI_MIC" acdb_id="4"/>
         <device name="SND_DEVICE_IN_HANDSET_TMIC_FLUENCE_PRO" acdb_id="125"/>
         <device name="SND_DEVICE_IN_HANDSET_TMIC" acdb_id="125"/>
+        <device name="SND_DEVICE_IN_VOICE_REC_HEADSET_MIC" acdb_id="307"/>
     </acdb_ids>
     <backend_names>
         <device name="SND_DEVICE_OUT_HEADPHONES" backend="headphones" interface="INT0_MI2S_RX"/>
@@ -387,4 +388,3 @@
         </input_snd_device>
     </snd_devices>
 </audio_platform_info>
-
