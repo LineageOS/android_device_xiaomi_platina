@@ -69,5 +69,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
 
+# Wifi
+PRODUCT_PACKAGES += \
+    PlatinaWifiOverlay
+
 # Inherit proprietary files
 $(call inherit-product, vendor/xiaomi/platina/platina-vendor.mk)
