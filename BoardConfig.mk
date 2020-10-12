@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2018-2020 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -25,23 +25,23 @@
 # Inherit from sdm660-common
 -include device/xiaomi/sdm660-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/twolip
+DEVICE_PATH := device/xiaomi/platina
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := tulip,twolip
+TARGET_OTA_ASSERT_DEVICE := platina
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2160
+TARGET_SCREEN_HEIGHT := 2280
 TARGET_SCREEN_WIDTH := 1080
 
 # Kernel
-TARGET_KERNEL_CONFIG := tulip_defconfig
+TARGET_KERNEL_CONFIG := platina_defconfig
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest.xml
 
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3221225472
-BOARD_VENDORIMAGE_PARTITION_SIZE := 2147483648
+BOARD_VENDORIMAGE_PARTITION_SIZE := 838860800
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
@@ -50,4 +50,4 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 VENDOR_SECURITY_PATCH := 2018-11-01
 
 # Inherit the proprietary files
--include vendor/xiaomi/twolip/BoardConfigVendor.mk
+-include vendor/xiaomi/platina/BoardConfigVendor.mk
