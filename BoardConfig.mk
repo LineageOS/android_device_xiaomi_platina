@@ -50,7 +50,7 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 838860800
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2018-11-01
+VENDOR_SECURITY_PATCH := 2020-08-01
 
 # Inherit the proprietary files
 -include vendor/xiaomi/platina/BoardConfigVendor.mk
