@@ -55,10 +55,6 @@ on boot
     chown system system /sys/class/leds/led:switch_1/brightness
     chown system system /sys/class/leds/flashlight/brightness
 
-    # IR
-    chmod 0660 /dev/spidev7.1
-    chown system system /dev/spidev7.1
-
     # Leds
     chmod 0640 /sys/class/leds/red/delay_on
     chmod 0640 /sys/class/leds/red/delay_off
