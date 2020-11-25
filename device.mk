@@ -67,10 +67,6 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.device.rc
 
-# Shims
-PRODUCT_PACKAGES += \
-    libcamera_sdm660_shim
-
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
